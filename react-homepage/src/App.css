@@ -1,0 +1,183 @@
+.category-products 
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.product-card 
+{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px; /* Fixed height for consistent layout */
+    max-width: 25%;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+.product-card:hover 
+{
+    background-color: #f0f0f5;
+}
+
+.product-card img 
+{
+    width: 100%;
+    max-height: 180px;
+    object-fit: contain;
+    border-radius: 10px;
+    border-style: outset;
+    border: 2px solid #ddd;
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img:hover 
+{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-card h3 
+{
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+}
+
+.product-card p 
+{
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0;
+}
+
+#blah
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: red;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+header 
+{
+    background-color: #333;
+}
+header h1 
+{
+    margin: 0;
+}
+
+.header-left 
+{
+    display: flex;
+    align-items: center;
+    gap: 10vw;
+}
+
+.search-container 
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#searchbar 
+{
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 45vw;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    outline: none;
+}
+
+#searchbar:focus
+{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: #007bff;
+}
+
+
+.searchbutton
+{
+    height: 40px;
+    padding: 8px 15px;
+    background-color: #f0f0f5;
+    width: 100px;
+    border: 2px solid #bbb;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: background-color 0.2s ease;
+}
+.searchbutton:hover
+{
+    background-color: #bbb;
+}
+
+.header-images 
+{
+    display: flex;
+    gap: 10px;
+}
+
+.header-images img 
+{
+    object-fit: cover;
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.logo
+{
+    text-decoration: none;
+}
+
+.firstl
+{
+    padding-left: 10px;
+    color: Red;
+}
+
+#lastname
+{
+    color: yellow;
+    padding-right: 15%;
+}
+
+#colorb
+{
+    color: skyblue;
+}
+#colorp
+{
+    color: hotpink;
+}
+#colorlg
+{
+    color: lightgreen;
+}
+#colory
+{
+    color: yellow;
+}
